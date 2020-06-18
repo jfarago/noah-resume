@@ -103,7 +103,6 @@ header a:active {
 .intro-area-content h3 {
   margin: 0;
   font-family: georgia;
-
 }
 
 .download-btn {
@@ -115,16 +114,17 @@ header a:active {
   font-family: georgia;
   font-size: 20px;
 }
+
 .download-btn a {
   text-decoration: none;
   padding: 15px;
 }
 
 .download-btn a:hover {
-    transition: .5s ease all;
-    background-color: white;
-    border-radius: 30px;
-    color: #203354;
+  transition: .5s ease all;
+  background-color: white;
+  border-radius: 30px;
+  color: #203354;
 }
 
 .download-btn a:visited {
@@ -154,7 +154,7 @@ header a:active {
   top: 25px;
 }
 
-.about-left::after{
+.about-left::after {
   position: absolute;
   content: "";
   height: 3px;
@@ -177,6 +177,117 @@ header a:active {
 .about-right p {
   padding-right: 100px;
   margin: 0px;
+}
+
+.experience-title {
+  width: 100%;
+  text-align: center;
+  background-color: #C6C6C6;
+}
+
+.experience-title h1 {
+  margin-bottom: 0;
+}
+
+.experience-title hr {
+  width: 10%;
+  border-color: #203354;
+  margin: 0 auto;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  background-color: #C6C6C6;
+}
+
+.experience-logo {
+  background-color: #C6C6C6;
+  height: 170px;
+  margin-top: 25px;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  word-wrap: normal;
+}
+
+.experience-desc {
+  background-color: white;
+  border-bottom: 3px solid grey;
+  border-right: 3px solid grey;
+  height: 170px;
+  margin-top: 25px;
+  word-wrap: normal;
+  width: 700px;
+}
+
+.experience-desc h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 200px;
+  margin-bottom: 0;
+}
+
+.experience-desc hr {
+  width: 15%;
+  margin: 0 30px 0;
+  border-color: #203354;
+}
+
+.experience-desc h4 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.experience-desc p {
+  margin-left: 15px;
+  margin-right: 15px
+}
+
+.contact-me-title {
+  text-align: center;
+  background-color: black;
+}
+
+.contact-me-title h1 {
+  margin-top: 0;
+  padding-top: 25px;
+  color: white;
+}
+
+.contact-me {
+  display: flex;
+  height: 350px;
+  background-color: #203354;
+}
+
+.contact-me-left {
+  flex: 1;
+  color: white;
+  margin-left: 25px;
+}
+
+.contact-me-middle {
+  flex: 1;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+}
+
+.contact-me-right {
+  flex: 1;
+  text-align: right;
+  color: white;
+  margin-right: 25px;
 }
 
 footer {}
